@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Patient</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <a href="index.html" id="patientsLink">Patient</a>
+                    <a href="doctor.html" id="doctorsLink">Doctor</a>
+                </ul>
+            </nav>
+        </div>
+        <h1>Edit Patient Information</h1>
+
+        <form id="patient-form">
+            <div class="form-container">
+                <div class="column1">
+                    <div class="field">
+                        <label for="patient-name">Patient Name:</label>
+                        <input type="text" id="patient-name" name="patient-name">
+                    </div>
+                    <div class="field">
+                        <label for="patient-gender">Patient gender</label>
+                        <input type="text" id="patient-gender" name="patient-gender">
+                    </div>
+                    <div class="field">
+                        <label for="patient-age">Patient Age:</label>
+                        <input type="text" id="patient-age" name="patient-age">
+                    </div>
+                    <div class="field">
+                        <label for="patient-phoneno">Phone no.</label>
+                        <input type="text" id="patient-phoneno" name="patient-phoneno">
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="field">
+                        <label for="patient-mailid">Mail iD</label>
+                        <input type="text" id="patient-mailid" name="patient-mailid">
+                    </div>
+                    <div class="field">
+                        <label for="patient-affectedside">Affected side</label>
+                        <input type="text" id="patient-affectedside" name="patient-affectedside">
+                    </div>
+                    <div class="field">
+                        <label for="patient-condition">Condition</label>
+                        <input type="text" id="patient-condition" name="patient-condition">
+                    </div>
+                    <div class="field">
+                        <label for="patient-speciality">Speciality</label>
+                        <input type="text" id="patient-speciality" name="patient-speciality">
+                    </div>
+                </div>
+            </div>
+            <div class="buttondiv">
+                <button id="submit-button" type="submit">Save Changes</button>
+            </div>
+        </form>
+    </div>
+    <script src="doctor.js"></script>
+</body>
+
+</html>
